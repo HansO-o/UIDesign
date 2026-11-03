@@ -1,0 +1,6 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "uidesign",
+  "compatibility_date": "2026-11-03",
+  "assets": { "directory": "./public", "not_found_handling": "404-page" }
+}
