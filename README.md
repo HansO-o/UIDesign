@@ -4,7 +4,7 @@
 
 ## 项目内容
 
-- `public/`：静态官网与可交互示例。示例是独立的原生 DOM 实现，用于展示交互，并非下述 React 组件的构建产物。
+- `public/`：静态官网与 7 个可交互示例（分段选择、单选、多选、开关、滑块、标签页和步进器）。示例是独立的原生 DOM 实现，用于展示交互，并非下述 React 组件的构建产物；除选择组件外，其余示例尚不是可复用组件。
 - `components/`：受控的单选列表和分段选择器源码，分别提供 React DOM 与 React Native 实现，共享类型与选择计算。具体用法和限制见 [组件说明](components/README.md)。
 - `wrangler.jsonc`：Cloudflare Workers 静态资源配置。
 

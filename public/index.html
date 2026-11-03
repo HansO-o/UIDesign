@@ -1,17 +1,88 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f6f7f9"><meta name="description" content="UIDesign 是一个面向 Web 与原生体验的开源 UI 组件项目。">
-  <title>UIDesign — 让交互，自然发生</title><link rel="stylesheet" href="./styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="UIDesign，细致、自然的界面组件。一个不断生长的开源项目。">
+  <title>UIDesign — Make the everyday feel better.</title>
+  <link rel="stylesheet" href="./styles.css"><link rel="stylesheet" href="./demos.css">
 </head>
 <body>
-<header class="header"><div class="nav wrap"><a class="brand" href="#top" aria-label="UIDesign 首页"><span class="mark"><i></i><i></i><i></i><i></i></span><span>UI<span class="brand-light">Design</span></span></a><nav aria-label="主导航"><a href="#components">组件</a><a href="#principles">设计理念</a><a class="nav-github" href="https://github.com/HansO-o/UIDesign">GitHub <span aria-hidden="true">↗</span></a></nav></div></header>
+<header class="site-header"><a class="wordmark" href="#top" aria-label="UIDesign 首页">UIDESIGN<span>®</span></a><nav aria-label="主导航"><a href="#components">组件</a><a href="#about">关于</a><a href="https://github.com/HansO-o/UIDesign">GitHub <span aria-hidden="true">↗</span></a></nav></header>
 <main id="top">
-<section class="hero wrap"><div class="hero-copy"><div class="eyebrow"><span class="status-dot"></span> OPEN SOURCE UI PROJECT <span class="tiny-line"></span> 01 / 开始</div><h1>好的界面，<br><span>让交互自然发生。</span></h1><p>从一个小小的选择开始。UIDesign 是一套持续生长的开源组件，关注触感、细节，以及每一次顺手的交互。</p><div class="hero-actions"><a class="button dark" href="#components">探索组件 <span>↗</span></a><a class="button light" href="https://github.com/HansO-o/UIDesign">查看 GitHub <span>↗</span></a></div><div class="hero-foot"><span class="avatars"><i>U</i><i>I</i></span><span>为真实产品而设计<br><b>Made to feel right.</b></span></div></div><div class="hero-art" aria-hidden="true"><div class="orbit orbit-1"></div><div class="orbit orbit-2"></div><div class="float-tag tag-top"><span class="tag-dot"></span> Thoughtful by default</div><div class="art-card"><div class="art-title"><div><small>YOUR EXPERIENCE</small><strong>Make it yours.</strong></div><span>✳</span></div><div class="art-sub">Choose how you want to begin</div><div class="art-line active"><span class="art-icon">◈</span><div><b>Simple & focused</b><small>A little less, but better.</small></div><span class="art-radio">✓</span></div><div class="art-line"><span class="art-icon">◌</span><div><b>Calm & considered</b><small>Everything in its place.</small></div><span class="art-radio"></span></div><div class="art-bottom"><span>DESIGNED FOR EVERY DAY</span><span>01 — 02</span></div></div><div class="float-tag tag-bottom"><span class="spark">✳</span><div><b>Small details.</b><small>Better moments.</small></div></div></div></section>
-<section class="intro-band"><div class="wrap band-content"><span>DESIGNED WITH INTENTION</span><p>简单，不止于看起来。<br><b>更在于用起来。</b></p><span class="band-number">01 / 03</span></div></section>
-<section class="section wrap" id="components"><div class="section-head"><div><div class="eyebrow">THE FIRST COMPONENTS <span class="tiny-line"></span> 组件 01</div><h2>从选择开始。</h2></div><p>看得见的细节，感受得到的流畅。<br>试着点击、拖动，找到刚刚好的感觉。</p></div><div class="demo-grid"><article class="demo-card segment-card"><div class="card-meta"><span>01 / INTERACTIVE</span><span>↗</span></div><div class="demo-stage"><div class="demo-panel"><div class="panel-label">展示方式 <span>VIEW</span></div><div class="segmented" role="radiogroup" aria-label="展示方式"><div class="segment-indicator" aria-hidden="true"></div><button type="button" role="radio" aria-checked="true" tabindex="0">全部</button><button type="button" role="radio" aria-checked="false" tabindex="-1">收藏</button><button type="button" role="radio" aria-checked="false" tabindex="-1">最近</button></div><div class="stage-caption"><span class="gesture">↔</span> 按住滑块拖动，或直接点击</div></div></div><div class="card-description"><div><h3>分段选择器</h3><p>跟手拖动，松手吸附。每一次切换，都自然流畅。</p></div><span class="pill">SEGMENTED CONTROL</span></div></article><article class="demo-card list-card"><div class="card-meta"><span>02 / INTERACTIVE</span><span>↗</span></div><div class="demo-stage"><div class="demo-panel list-panel"><div class="panel-label">偏好设置 <span>PREFERENCE</span></div><fieldset class="choice-list"><legend class="sr-only">选择界面风格</legend><label><input type="radio" name="appearance" value="light" checked><span class="choice-icon sun">☼</span><span class="choice-text"><b>浅色</b><small>明亮、清晰的视觉体验</small></span><span class="radio-ui"></span></label><label><input type="radio" name="appearance" value="dark"><span class="choice-icon moon">◒</span><span class="choice-text"><b>深色</b><small>柔和、沉静的视觉体验</small></span><span class="radio-ui"></span></label><label><input type="radio" name="appearance" value="system"><span class="choice-icon auto">◉</span><span class="choice-text"><b>跟随系统</b><small>随设备自动切换</small></span><span class="radio-ui"></span></label></fieldset></div></div><div class="card-description"><div><h3>单选列表</h3><p>清晰的层次和状态，让每一个选择都一目了然。</p></div><span class="pill">SINGLE SELECT</span></div></article></div><div class="component-note"><span>✳</span><p>这是项目的起点。更多组件、更多可能，正在路上。</p><a href="https://github.com/HansO-o/UIDesign">在 GitHub 参与 →</a></div></section>
-<section class="principles" id="principles"><div class="wrap"><div class="section-head"><div><div class="eyebrow">A LITTLE MORE THOUGHT <span class="tiny-line"></span> 设计理念</div><h2>细节，构成体验。</h2></div><p>不追逐复杂。把简单的事情，<br>做得更好一点。</p></div><div class="principle-grid"><article><span>01</span><div class="principle-icon">◌</div><h3>自然的交互</h3><p>运动不只是装饰。它回应动作，让每一次操作都有迹可循。</p></article><article><span>02</span><div class="principle-icon">⌘</div><h3>清晰的结构</h3><p>恰到好处的层次与留白，让内容和选择回到中心。</p></article><article><span>03</span><div class="principle-icon">✳</div><h3>共同去创造</h3><p>开源，意味着一起打磨。欢迎探索、使用和贡献。</p></article></div></div></section>
-<section class="closing wrap"><div><div class="eyebrow">BUILD SOMETHING THOUGHTFUL</div><h2>一起做点<br><span>好用的东西。</span></h2><p>从这里开始，和我们一起探索更自然的界面。</p><a class="button dark" href="https://github.com/HansO-o/UIDesign">前往 GitHub <span>↗</span></a></div><div class="closing-mark" aria-hidden="true">✳</div></section>
-</main><footer><div class="wrap footer-inner"><a class="brand" href="#top"><span class="mark"><i></i><i></i><i></i><i></i></span><span>UI<span class="brand-light">Design</span></span></a><span>Thoughtful interfaces, made together.</span><a href="https://github.com/HansO-o/UIDesign">GitHub ↗</a></div></footer><script type="module" src="./main.js"></script>
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero-center"><svg class="symbol" width="52" height="26" viewBox="0 0 52 26" fill="none" aria-hidden="true"><circle cx="13" cy="13" r="11.25"/><circle cx="39" cy="13" r="11.25"/><path d="M24.5 13h3"/></svg><h1 id="hero-title">UIDESIGN</h1><p>Make the everyday feel better.</p></div>
+  <a class="scroll-cue" href="#components">向下探索 <span aria-hidden="true">↓</span></a>
+  <div class="hero-bottom"><span>A collection of thoughtful details.</span><span>OPEN SOURCE · EST. 2026</span></div>
+</section>
+<section class="intro wrap" id="components"><div class="section-index">01 / THE COLLECTION</div><div><h2>小细节，<br>好体验。</h2><p>一个不断生长的组件集合。从选择开始，为每一次自然的交互留心。</p></div><div class="intro-aside">DESIGNED TO BE USED<br>MADE TO BE SHARED</div></section>
+<section class="collection wrap" aria-label="交互组件演示"><div class="collection-heading"><div><span class="section-index">INTERACTIVE PREVIEW</span><h2>组件一览<span> / COLLECTION</span></h2></div><p>点击、拖动，亲自试试看。<br>更多组件会陆续加入。</p></div>
+<!-- Interactive examples only; include demos.css and demos.js once on the page. -->
+<div class="ud-demos" aria-label="交互组件演示">
+  <p class="ud-demos-note">以下为交互演示，设置不会被保存。</p>
+  <div class="ud-grid">
+    <article class="ud-card">
+      <div class="ud-card-top"><span>01 / 选择</span><span>SEGMENTED CONTROL</span></div>
+      <div class="ud-stage"><div class="ud-panel"><div class="ud-label">浏览内容 <span>VIEW</span></div>
+        <div class="ud-segment" role="radiogroup" aria-label="浏览内容">
+          <span class="ud-segment-indicator" aria-hidden="true"></span>
+          <button type="button" role="radio" aria-checked="true" tabindex="0">全部</button><button type="button" role="radio" aria-checked="false" tabindex="-1">收藏</button><button type="button" role="radio" aria-checked="false" tabindex="-1">最近</button>
+        </div><p class="ud-hint">点击切换，或按住选中项拖动</p>
+      </div></div>
+      <div class="ud-description"><h3>分段选择器</h3><p>跟手拖动，松手吸附。让切换自然发生。</p></div>
+    </article>
+    <article class="ud-card">
+      <div class="ud-card-top"><span>02 / 选择</span><span>RADIO GROUP</span></div>
+      <div class="ud-stage"><div class="ud-panel"><div class="ud-label">外观偏好 <span>APPEARANCE</span></div>
+        <fieldset class="ud-radios"><legend class="ud-sr-only">选择外观偏好</legend>
+          <label><input type="radio" name="ud-appearance" value="light" checked><span><b>浅色</b><small>明亮而清晰</small></span></label>
+          <label><input type="radio" name="ud-appearance" value="dark"><span><b>深色</b><small>安静而专注</small></span></label>
+          <label><input type="radio" name="ud-appearance" value="system"><span><b>跟随系统</b><small>随设备自动切换</small></span></label>
+        </fieldset>
+      </div></div><div class="ud-description"><h3>单选列表</h3><p>一次选择，一个清晰的答案。</p></div>
+    </article>
+    <article class="ud-card">
+      <div class="ud-card-top"><span>03 / 状态</span><span>SWITCH</span></div>
+      <div class="ud-stage"><div class="ud-panel"><div class="ud-label">通知设置 <span>NOTIFICATIONS</span></div>
+        <div class="ud-row"><span><b>消息提醒</b><small>接收新消息通知</small></span><label class="ud-switch"><input type="checkbox" role="switch" aria-label="消息提醒" checked><span aria-hidden="true"></span></label></div>
+        <div class="ud-row"><span><b>声音提示</b><small>收到消息时播放声音</small></span><label class="ud-switch"><input type="checkbox" role="switch" aria-label="声音提示"><span aria-hidden="true"></span></label></div>
+      </div></div><div class="ud-description"><h3>开关</h3><p>简单明确的开与关，即时响应。</p></div>
+    </article>
+    <article class="ud-card">
+      <div class="ud-card-top"><span>04 / 选择</span><span>CHECKBOX</span></div>
+      <div class="ud-stage"><div class="ud-panel"><div class="ud-label">选择兴趣 <span>INTERESTS</span></div>
+        <fieldset class="ud-checks"><legend class="ud-sr-only">选择兴趣，可多选</legend>
+          <label><input type="checkbox" checked><span>界面设计</span></label><label><input type="checkbox"><span>交互体验</span></label><label><input type="checkbox"><span>创意开发</span></label>
+        </fieldset>
+      </div></div><div class="ud-description"><h3>复选框</h3><p>多个选项，自由组合。</p></div>
+    </article>
+    <article class="ud-card">
+      <div class="ud-card-top"><span>05 / 调整</span><span>SLIDER</span></div>
+      <div class="ud-stage"><div class="ud-panel"><div class="ud-label"><label for="ud-brightness">显示亮度</label><output for="ud-brightness" id="ud-brightness-value">65%</output></div>
+        <input class="ud-range" id="ud-brightness" type="range" min="0" max="100" value="65" aria-describedby="ud-brightness-hint"><div class="ud-range-labels" id="ud-brightness-hint"><span>暗</span><span>亮</span></div>
+      </div></div><div class="ud-description"><h3>滑块</h3><p>细微调整，也有清晰反馈。</p></div>
+    </article>
+    <article class="ud-card">
+      <div class="ud-card-top"><span>06 / 导航</span><span>TABS</span></div>
+      <div class="ud-stage"><div class="ud-panel"><div class="ud-label">工作空间 <span>WORKSPACE</span></div>
+        <div class="ud-tabs" role="tablist" aria-label="工作空间分类"><button type="button" role="tab" id="ud-tab-overview" aria-controls="ud-panel-overview" aria-selected="true" tabindex="0">概览</button><button type="button" role="tab" id="ud-tab-activity" aria-controls="ud-panel-activity" aria-selected="false" tabindex="-1">动态</button><button type="button" role="tab" id="ud-tab-saved" aria-controls="ud-panel-saved" aria-selected="false" tabindex="-1">收藏</button></div>
+        <div class="ud-tab-panel" role="tabpanel" id="ud-panel-overview" aria-labelledby="ud-tab-overview" tabindex="0">从这里，开始今天的工作。</div><div class="ud-tab-panel" role="tabpanel" id="ud-panel-activity" aria-labelledby="ud-tab-activity" tabindex="0" hidden>所有近期动态都在这里。</div><div class="ud-tab-panel" role="tabpanel" id="ud-panel-saved" aria-labelledby="ud-tab-saved" tabindex="0" hidden>把喜欢的内容留在这里。</div>
+      </div></div><div class="ud-description"><h3>标签页</h3><p>在不同内容之间，从容切换。</p></div>
+    </article>
+    <article class="ud-card">
+      <div class="ud-card-top"><span>07 / 操作</span><span>STEPPER</span></div>
+      <div class="ud-stage"><div class="ud-panel"><div class="ud-label">选择数量 <span>QUANTITY</span></div>
+        <div class="ud-stepper"><button type="button" data-ud-step="-1" aria-label="减少数量">−</button><output aria-live="polite" aria-label="当前数量">1</output><button type="button" data-ud-step="1" aria-label="增加数量">+</button></div><p class="ud-hint">选择 1 至 10 之间的数量</p>
+      </div></div><div class="ud-description"><h3>步进器</h3><p>每一次点击，向前一点。</p></div>
+    </article>
+  </div>
+</div>
+
+<p class="demo-note">这些是官网中的交互演示。可复用源码目前包含单选列表和分段选择器，其他演示仍在探索中。</p>
+</section>
+<section class="about wrap" id="about"><div class="section-index">02 / THE IDEA</div><div><h2>Less, but<br><em>more considered.</em></h2><p>我们相信好的界面不必喧哗。清晰、克制、自然，正是那些几乎察觉不到的细节，让使用变得愉快。</p><a class="text-link" href="https://github.com/HansO-o/UIDesign">在 GitHub 探索项目 <span aria-hidden="true">↗</span></a></div><div class="about-symbol" aria-hidden="true">✳</div></section>
+<section class="endnote"><div class="endnote-inner"><span class="section-index">AN OPEN INVITATION</span><h2>Made together,<br>for what’s next.</h2><p>从一个想法开始，一起创造更好的界面。</p><a href="https://github.com/HansO-o/UIDesign">加入探索 <span aria-hidden="true">↗</span></a></div></section>
+</main><footer class="site-footer"><a class="wordmark" href="#top">UIDESIGN<span>®</span></a><p>Thoughtful interfaces, made together.</p><a href="https://github.com/HansO-o/UIDesign">GITHUB ↗</a><a href="#top">BACK TO TOP ↑</a></footer>
+<script type="module" src="./demos.js"></script>
 </body></html>
