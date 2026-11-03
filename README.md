@@ -27,3 +27,7 @@ python3 -m http.server 8000 --directory public
 ## 许可
 
 项目尚未指定开源许可证，使用和分发许可有待仓库所有者确定。
+
+## 字体
+
+官网自托管 [Raleway](https://github.com/google/fonts/tree/main/ofl/raleway) 可变字体，使用 SIL Open Font License 1.1；许可证见 `public/fonts/OFL.txt`。中文使用系统字体回退。
